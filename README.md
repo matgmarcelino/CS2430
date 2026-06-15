@@ -13,6 +13,10 @@ This repository contains all coursework for CS 2430. It is organized to keep sou
 
 Project 0 is a setup and research assignment. It covers programming paradigms, architectural patterns, design patterns, and repository organization. No programming project is submitted for Project 0. Projects 1–4 will be added to their respective folders as the semester progresses.
 
+### Project 1 - Sorting Algorithm Comparison
+
+Implements and compares four classic sorting algorithms in Java: merge sort, quick sort, heap sort, and shaker sort. Each algorithm includes an exact element-to-element comparison counter to verify performance. Correctness is verified accross all n! permutations static arrays size n = 4, 6, and 8. Minimum, maximum, and average comparison counts are reported with a formatted table in `ResultsTable.java`.
+
 ## Repository Structure
 
 ```
@@ -20,6 +24,11 @@ CS2430/
 ├── README.md
 ├── .gitignore
 ├── project1/
+│   ├── src/SortingAlgorithms/
+│   │   ├── sortingAlgorithms.java
+│   │   ├── dataGenerator.java
+│   │   ├── testDriver.java
+│   │   └── ResultsTable.java
 │   └── docs/
 ├── project2/
 │   └── docs/
