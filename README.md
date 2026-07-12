@@ -21,6 +21,10 @@ Implements and compares four classic sorting algorithms in Java: merge sort, qui
 
 Implements standard collection operations on two kinds of sets in Java. Part 1 covers ordinary sets represented as a bit-string over a `boolean[]` where each bit corresponds to a college in a shared 12-college universe. It supports complement, union, intersection, difference, and symmetric difference. Part 2 covers multisets (otherwise known as bags) implemented with a `HashMap<String, Integer>` that maps every college to its count. It supports union (max counts), intersection (min counts), difference (floored at zero), and sum. A `Main` driver includes many test runs accross multiple edge cases and prints labeled output.
 
+### Project 3 - Optimal Selection
+
+Explores several strategies for finding an optimal subset within a lsit of experiments that maximizes total rating without exceeding a 700kg weight limit, an instance of the 0/1 knapsack problem. Part 1 implements three greedy strategies (sorting by highest rating first, lightest weight, and best rating-to-weight ratio). Part 2 implements an exhaustive, brute-force approach over all possible subsets, which is optimal but runs in O(2^n) time. Part 4 implements an optimal dynamic-programming solution with a `dp[i][c]` table and backtracks to recover the chosen experiments in O(n \* capacity) time. An `OptimizationStrategies` driver runs every strategy and prints the output from each implementation along with a summary comparing these approaches.
+
 ## Repository Structure
 
 ```
@@ -44,7 +48,11 @@ CS2430/
 │   └── docs/
 │       └── README.md
 ├── project3/
-│   └── docs/
+│   ├── README.md
+│   └── src/
+│       ├── Experiment.java
+│       ├── SubsetGenerator.java
+│       └── OptimizationStrategies.java
 └── project4/
     └── docs/
 ```
