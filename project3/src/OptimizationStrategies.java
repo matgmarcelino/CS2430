@@ -55,7 +55,7 @@ public class OptimizationStrategies {
     }
 
     /**
-     * Greedy strategy that considers experiments from highest rating to lowest,
+     * Greedy strategy that considers experiments from the highest rating to lowest,
      * adding each one that fits within the weight budget.
      *
      * @return the selected set of experiments
@@ -104,7 +104,7 @@ public class OptimizationStrategies {
     }
 
     /**
-     * Brute-force strategy that generates every possible subset of eweighedxperiments,
+     * Brute-force strategy that generates every possible subset of weighted experiments,
      * keeps those within the 700 kg budget, and returns the three with the
      * highest total rating.
      * <p>
@@ -241,9 +241,9 @@ public class OptimizationStrategies {
                 using the first i experiments restricted to the weight budget c. For each experiment, we compare how
                 it would affect the rating and weight later on and if it is optimal, then we choose to skip it or take it,
                 and if we take it we gain its value and spend its weight. Then we keep doing this until the most optimal
-                subset is found. This is the best strategy as it finds the best possible subset while also being 
+                subset is found. This is the best strategy as it finds the best possible subset while also being
                 O(n * capacity) time.
-                """);
+               """);
     }
 
     /**

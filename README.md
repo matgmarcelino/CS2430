@@ -48,11 +48,12 @@ CS2430/
 │   └── docs/
 │       └── README.md
 ├── project3/
-│   ├── README.md
-│   └── src/
-│       ├── Experiment.java
-│       ├── SubsetGenerator.java
-│       └── OptimizationStrategies.java
+│   ├──src/
+│   │   ├── Experiment.java
+│   │   ├── SubsetGenerator.java
+│   │   └── OptimizationStrategies.java
+│   └── docs/
+│       └── README.md
 └── project4/
     └── docs/
 ```
