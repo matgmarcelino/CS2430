@@ -92,7 +92,7 @@ public class OptimizationStrategies {
      *
      * @return the selected set of experiments
      */
-    public static Set<Experiment> weighedScore() {
+    public static Set<Experiment> weightedScore() {
         Experiment[] sortedExperiments = EXPERIMENTS.clone();
         Arrays.sort(sortedExperiments,
                 Comparator.comparingDouble((Experiment a) -> (double) a.getRating() / a.getWeight()).reversed());
@@ -104,7 +104,7 @@ public class OptimizationStrategies {
     }
 
     /**
-     * Brute-force strategy that generates every possible subset of experiments,
+     * Brute-force strategy that generates every possible subset of eweighedxperiments,
      * keeps those within the 700 kg budget, and returns the three with the
      * highest total rating.
      * <p>
@@ -206,7 +206,7 @@ public class OptimizationStrategies {
         printSet(lightestFirst());
 
         System.out.println("Weighed Score");
-        printSet(weighedScore());
+        printSet(weightedScore());
 
         System.out.println("------------- Part 2 -------------");
 

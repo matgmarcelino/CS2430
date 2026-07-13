@@ -28,7 +28,7 @@ This project explores several strategies for the _optimal selection_ problem: fi
 
 Each greedy strategy sorts the experiments by some key and then adds them one at a time, skipping any experiment that would push the total weight to over 700 kg.
 
-- **Highest rating first** — considers experiments from highest rating to lowest. Not optimal as it completely disregards the weight.
+- **Highest rating first** — considers experiments from the highest rating to lowest. Not optimal as it completely disregards the weight.
 - **Lightest first** — considers experiments from lightest to heaviest. Finds a better solution than the previous strategy, but is still not optimal as it disregards rating-to-weight ratio.
 - **Weighed score** — considers experiments by descending rating-to-weight ratio. The best one of the greedy strategies as it uses all data from each experiment and calculates a score.
 
