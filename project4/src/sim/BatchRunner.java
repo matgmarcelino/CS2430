@@ -1,3 +1,14 @@
+/*
+ * Matheus Marcelino
+ * CS 2430, section 6
+ * Monopoly Landing-Frequency Simulation Programming Project 4 - Summer 2026
+ *
+ * Batch driver for the experiment: runs 10 independent simulations per
+ * jail-exit strategy, snapshots the landing counts at 1K, 10K, 100K and 1M
+ * turns, and writes every snapshot plus a comparative summary to data/ as CSV
+ * and TXT files for the report.
+ */
+
 package sim;
 
 import board.Board;

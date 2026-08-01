@@ -1,0 +1,44 @@
+COMPARATIVE RUN SUMMARY (n = 1000000, 10 runs per strategy)
+======================================================================
+
+TOP 5 SQUARES - STRATEGY A (Immediate Exit)
+Idx  Square                     Mean %     Top-5 runs
+10   Jail / Just Visiting       6.8642         10/10
+24   Illinois Avenue            3.1909         10/10
+0    GO                         3.1482         10/10
+19   New York Avenue            3.1479         10/10
+25   B&O Railroad               3.0090          8/10
+
+TOP 5 SQUARES - STRATEGY B (Try for Doubles)
+Idx  Square                     Mean %     Top-5 runs
+10   Jail / Just Visiting      13.5041         10/10
+0    GO                         2.9275         10/10
+24   Illinois Avenue            2.9221         10/10
+18   Tennessee Avenue           2.8314          9/10
+25   B&O Railroad               2.8213          4/10
+
+======================================================================
+LARGEST A vs B DIFFERENCES
+Idx  Square                       A %       B %      Diff     Noise
+10   Jail / Just Visiting      6.8642   13.5041   -6.6400    0.1522  <- exceeds noise
+17   Community Chest           2.6542    2.2773    0.3770    0.0356  <- exceeds noise
+15   Pennsylvania Railroad     2.9438    2.5906    0.3531    0.0544  <- exceeds noise
+19   New York Avenue           3.1479    2.8105    0.3375    0.0633  <- exceeds noise
+24   Illinois Avenue           3.1909    2.9221    0.2688    0.0530  <- exceeds noise
+21   Kentucky Avenue           2.8225    2.5556    0.2670    0.0408  <- exceeds noise
+13   States Avenue             2.3640    2.1279    0.2361    0.0519  <- exceeds noise
+26   Atlantic Avenue           2.7075    2.4816    0.2259    0.0514  <- exceeds noise
+0    GO                        3.1482    2.9275    0.2206    0.0708  <- exceeds noise
+32   North Carolina Avenue     2.7078    2.5030    0.2048    0.0578  <- exceeds noise
+
+======================================================================
+JAIL-EFFECT SQUARES
+Idx  Square                       A %       B %      Diff
+10   Jail / Just Visiting      6.8642   13.5041   -6.6400
+11   St. Charles Place         2.6736    2.4923    0.1813
+24   Illinois Avenue           3.1909    2.9221    0.2688
+39   Boardwalk                 2.0930    1.9450    0.1480
+
+======================================================================
+ANOMALY CHECKS
+All counts sum correctly and square 30 is empty unless noted above.

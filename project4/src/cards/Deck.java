@@ -1,3 +1,14 @@
+/*
+ * Matheus Marcelino
+ * CS 2430, section 6
+ * Monopoly Landing-Frequency Simulation Programming Project 4 - Summer 2026
+ *
+ * Implements a shuffled deck of Chance or Community Chest cards, including the
+ * contents of both decks, drawing from the draw pile onto the discard pile,
+ * reshuffling the discards when the draw pile runs out, and returning a held
+ * Get Out of Jail Free card to the deck.
+ */
+
 package cards;
 
 import java.util.*;
@@ -112,7 +123,7 @@ public class Deck {
 
     /**
      * Builds the 16-card Community Chest deck, unshuffled. Only the movement
-     * cards are modelled individually; the rest are {@link CardType#NO_OP}.
+     * cards are modeled individually; the rest are {@link CardType#NO_OP}.
      *
      * @return the Community Chest cards in fixed order
      */
@@ -131,7 +142,7 @@ public class Deck {
 
     /**
      * Smoke test: draws and discards 100 cards from a Community Chest deck,
-     * printing the draw and discard pile sizes so the reshuffle behaviour can be
+     * printing the draw and discard pile sizes so the reshuffle behavior can be
      * observed.
      *
      * @param args ignored

@@ -1,0 +1,42 @@
+# strategy=A, run=8, n=100000, seed=1008
+index,name,count,percentage
+0,GO,3138,3.1380
+1,Mediterranean Avenue,2094,2.0940
+2,Community Chest,1875,1.8750
+3,Baltic Avenue,2164,2.1640
+4,Income Tax,2253,2.2530
+5,Reading Railroad,2875,2.8750
+6,Oriental Avenue,2202,2.2020
+7,Chance,972,0.9720
+8,Vermont Avenue,2249,2.2490
+9,Connecticut Avenue,2265,2.2650
+10,Jail / Just Visiting,6807,6.8070
+11,St. Charles Place,2703,2.7030
+12,Electric Company,2610,2.6100
+13,States Avenue,2376,2.3760
+14,Virginia Avenue,2504,2.5040
+15,Pennsylvania Railroad,2902,2.9020
+16,St. James Place,2820,2.8200
+17,Community Chest,2655,2.6550
+18,Tennessee Avenue,2970,2.9700
+19,New York Avenue,3149,3.1490
+20,Free Parking,2952,2.9520
+21,Kentucky Avenue,2791,2.7910
+22,Chance,1181,1.1810
+23,Indiana Avenue,2680,2.6800
+24,Illinois Avenue,3198,3.1980
+25,B&O Railroad,2961,2.9610
+26,Atlantic Avenue,2693,2.6930
+27,Ventnor Avenue,2646,2.6460
+28,Water Works,2848,2.8480
+29,Marvin Gardens,2620,2.6200
+30,Go to Jail,0,0.0000
+31,Pacific Avenue,2531,2.5310
+32,North Carolina Avenue,2740,2.7400
+33,Community Chest,2361,2.3610
+34,Pennsylvania Avenue,2522,2.5220
+35,Short Line,2379,2.3790
+36,Chance,1019,1.0190
+37,Park Place,2085,2.0850
+38,Luxury Tax,2214,2.2140
+39,Boardwalk,1996,1.9960
